@@ -1,0 +1,33 @@
+#box{
+    width:80px;
+    height: 80px;
+    background-color: blue;
+    animation-name: drive; 
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.code{
+  color: green;
+  animation-name: driver; 
+  animation-duration: 2s;
+
+}
+
+@keyframes drive{
+
+   from{ transform: translateX(0)}
+   to{ transform: translateX(200px)}
+
+}
+
+@keyframes driver{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
